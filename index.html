@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+ </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div
+        class="header-content display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a href="#default" class="logo"
+            ><img src="./assets/images/logo.svg" alt=""
+          /></a>
+        </div>
+        <nav class="tab-display-flex gap-16" id="menu">
+          <div class="nav-content">
+            <img src="./assets/images/icon-menu-close.svg" alt="" id="cancel-btn">
+
+            <div class="nav-items">
+
+              <div class="nav-item">
+                <a href="#" class="active">Home</a>
+              </div>
+              <div class="nav-item">
+                <a href="#" class="active">New</a>
+              </div>
+              <div class="nav-item">
+                <a href="#" class="active">Popular</a>
+              </div>
+              <div class="nav-item">
+                <a href="#" class="active">Trending</a>
+              </div>
+              <div class="nav-item">
+                <a href="#" class="active">Categories</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="nav-toggle" >
+          <img src="./assets/images/icon-menu.svg" alt="" id="toggle-btn">
+        </div>
+      </div>
+      </header>
+
+      <div class="hero-div-row">
+        <div class="wahala-display">
+        <div class="wahala-1">
+          <div class="row-display">
+            <div class="img-section">
+              <div class="mobile-img">
+                <img
+                  src="./assets/images/image-web-3-mobile.jpg"
+                  alt="mobile-img"
+                  width="100%"
+                />
+              </div>
+
+              <div class="display-none desktop-img">
+                <img
+                  src="./assets/images/image-web-3-desktop.jpg"
+                  alt="desktop-img"
+                  width="100%"
+                />
+              </div>
+            </div>
+            <!--img-->
+            <div class="text-row-display">
+              <div class="Hero-bold-text">
+                <p>The Bright Future of Web 3.0?</p>
+              </div>
+              <div class="para-text">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <div class="Read-moreBtn"><button>READ MORE</button></div>
+              </div>
+            </div>
+
+            <!--hero-->
+          </div>
+        </div>
+        <div class="wahala-2">
+          <div class="row-display-text">
+            <div class="NEW-SEC">
+              <p class="mid-text">New</p>
+              <div class="hydrogen">
+                <p id="bold-new-sec">Hydrogen VS Electric Cars</p>
+                <p id="normal-text">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </div>
+              <hr />
+              <div class="AI Artistry">
+                <p id="bold-new-sec">The Downsides of AI Artistry</p>
+                <p id="normal-text">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <hr />
+              <div class="funding">
+                <p id="bold-new-sec">Is VC Funding Drying Up?</p>
+                <p id="normal-text">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="numbered-display">
+        <div class="display_01 display-row flex-gap">
+          <div class="img-div">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="" width="100%" />
+          </div>
+          <div class="text-div">
+            <p id="blur-number">01</p>
+            <p id="bold">Reviving Retro PCs</p>
+            <p id="text-paragraph">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="display_02 display-row flex-gap">
+          <div class="img-div">
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="text-div">
+            <p id="blur-number">02</p>
+            <p id="bold">Top 10 Laptops of 2022</p>
+            <p id="text-paragraph">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="display_03 display-row flex-gap">
+          <div class="img-div">
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="text-div">
+            <p id="blur-number">03</p>
+            <p id="bold">The Growth of Gaming</p>
+            <p id="text-paragraph">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--num-display-->
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Agbonika Ojone</a>.
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
